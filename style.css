@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.topHead{
+    background-image: url(./images/campnou.jpg);
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo{
+    background-image: url(./images/logobadge.png);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 45%;
+    top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    position: sticky;
+    color: white;
+    font-weight: 600;
+    font-size: 8rem;
+    top: 250px;
+    text-align: center;
+    background: linear-gradient(to right, red,yellow,blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 10px white;
+    padding-bottom: 50px;
+}
+.secondimg{
+    min-height: 500px;
+}
+.thirdimg{
+    background-image: url(./images/rowpeopleFAN.png);
+    min-height: 850px;
+}
+.strip{
+    margin: 1px 0px;
+    height: 25px;
+    background-color: rgb(168, 19, 62);
+}
+.captionHead{
+    background-color: rgb(0, 76, 152);
+    opacity: 1;
+    backdrop-filter: blur(20px);
+    padding: 40px 80px;
+    color: white;
+}
+.captionHead h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(237, 187, 0);
+    text-shadow: 0px 2px 2px black;
+}
+.captionHead p{
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+/* Players*/
+.players{
+    background-image: url(./images/players.jpg);
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.namePlayers{
+    position: absolute;
+    background-color: rgb(0, 77, 152);
+    color: rgb(237, 187, 0);
+    text-shadow:2px 2px 0px rgb(168, 19, 62);
+    padding: 40px;
+    border-radius: 5px;
+    border: double;
+    right: 40%;
+    top: 40%;
+    font-size: 3rem;
+    font-weight: 700;
+    box-shadow: 0px 2px 60px black;
+}
+.trophy{
+    background-image: url(./images/trophies.jpg);
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.tagTrophy{
+    position: absolute;
+    background-color: rgb(0, 77, 152);
+    color: rgb(237, 187, 0);
+    text-shadow:2px 2px 0px rgb(168, 19, 62);
+    padding: 40px;
+    border-radius: 5px;
+    border: double;
+    right: 38%;
+    top: 40%;
+    font-size: 3rem;
+    font-weight: 700;
+    box-shadow: 0px 2px 60px black;
+}
+.academy{
+    background-image: url(./images/academy.jpg);
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.managers{
+    background-image: url(./images/managers.jpg);
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
